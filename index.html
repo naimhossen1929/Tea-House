@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
-</head>
-<body>
-    <header>
 
+    <!-- Tailwind and Daisy UI  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Font Awesome ling -->
+    <script src="https://kit.fontawesome.com/cc2435fc76.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+
+            font-family: "Manrope", serif;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              
+              <div>
+                <h1 class="text-7xl font-bold text-[#1C1C1C] leading-30">It's good <br>
+                    tea time at The <br> Tea House</h1>
+                <p class="py-6 text-[#777]">
+                    Welcome to Tea House, where every cup tells a story. Our stall is a warm and inviting spot for tea enthusiasts seeking the perfect blend of flavor and comfort. We serve a variety of teas, from classic black and green teas to soothing herbal infusions and refreshing iced teas.
+                </p>
+                <button class="btn bg-gradient-to-r from-[#FF8938]  to-[#F00] font-bold text-white">Explore More <img src="images/arrow.png" alt=""></button>
+              </div>
+              <div class="">
+                <img
+                src="images/banner.png"
+                class="w-[120rem] z-auto" />
+                <!-- Rating Badge -->
+                <div class="relative  z-30 -mt-16 md:-mt-28 ml-6 md:ml-16 flex items-center gap-5 shadow-md bg-white p-4 w-[244px] rounded-md ">
+                    <i class="fa-solid fa-star text-amber-400 text-3xl"></i>
+                    <div>
+                        <h2 class="text-3xl font-extrabold text-[#1C1C1C]">4.5</h2>
+                        <p class="text-lg font-semibold text-[#777]">Trust Pilot Ratings </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
     </header>
     <main>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
